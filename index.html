@@ -13,7 +13,7 @@
     <!--display the name and age of programmers in ABC Company-->
     <div ng-controller="people">
         <ul>
-            <h2>Name of programmers in ABC Company</h2>
+            <h2>Name</h2>
             <input type="text" ng-model="searchBox"/>
             <li ng-repeat="person in persons|filter:searchBox">
                 {{person.Name+'  :  '+person.Age}}
